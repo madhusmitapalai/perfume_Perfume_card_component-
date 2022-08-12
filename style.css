@@ -20,7 +20,7 @@ body {
 
 .container {
     max-width: 550PX;
-    max-height: 600px;
+    max-height: 550px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -82,10 +82,6 @@ small {
     margin-top: .5rem;
 }
 
-i {
-    padding: 0 1rem;
-}
-
 .numbers h2 {
     color: hsl(158, 36%, 37%);
     font-size: 1.6rem;
@@ -102,8 +98,8 @@ button {
     font-weight: 500;
     font-size: 1rem;
     border-radius: .4rem;
-    margin: 1rem 1rem;
-    padding-right: 1rem;
+    padding: 1rem 4rem;
+    margin-top: 1.5rem;
 }
 
 @media only screen and (max-width:550px) {
@@ -114,6 +110,6 @@ button {
     }
     .img {
         width: 500px;
-        height: 600px;
+        height: 500px;
     }
 }
